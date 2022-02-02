@@ -47,7 +47,7 @@ const Map = ({setCoordinates, setBounds, coordinates, places, setChildClicked}) 
                   </Typography>
                   <img 
                   className = {classes.pointer}
-                  src= {place.photo ? place.photo.images.large.url : 'https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg'}
+                  src= {place.photo ? place.photo.images.large.url : ''}
                   alt={place.name}
                   />
                   <Rating size='small' value={Number(place.rating)} readOnly />
